@@ -1,0 +1,206 @@
+body{
+    padding:0;
+    margin:0;
+    border: 0;
+    color: #C1F2B0 !important;
+}
+
+.gradient-background {
+    background: linear-gradient(250deg, #FE7A36, #3652AD, #FF6868);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+    -webkit-animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-webkit-keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+  .self{
+    padding-top: 50px;
+  }
+
+  #Name{
+    color:#C1F2B0 !important;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .my-pic{
+    border:50%;
+  }
+
+  /* .icon-square{
+    width: 2rem;
+    height: 2rem;
+    border-radius: .75rem;
+  } */
+
+
+  .flex-container{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .grid-container{
+
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+
+
+
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    gap:30px;
+    padding-top:3rem;
+  }
+
+
+.edu-h{
+    display:flex;
+    justify-content: flex-start;
+
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.edu{
+    display:flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+
+
+}
+
+.edu-items{
+    display:flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.bc{
+    display: flex;
+    flex-direction: column;
+    gap: 7.8px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.th{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raj{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+
+.projects{
+    display: flex;
+    gap:3rem;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.p{
+    flex:1;
+}
+
+#my_projects > h2{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p > h4{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p > p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+.inters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+}
+
+#interests  h2{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-me h2{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.contact-me p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+}
+
+#footer .text-body{
+    color:#C1F2B0 !important;
+}
+
+.filter-white{
+    filter: invert(89%) sepia(14%) saturate(721%) hue-rotate(54deg) brightness(101%) contrast(92%);
+}
